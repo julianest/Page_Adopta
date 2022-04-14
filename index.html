@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/styles/style.css" rel="stylesheet">
+    <title>Adoption</title>
+
+    <style>
+        .center-full-image {
+            width: 150px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /*animation*/
+            animation: logo 2s infinite;
+        }
+
+        @keyframes logo {
+            0% {
+                width: 150px;
+            }
+            50% {
+                width: 10%;
+            }
+            100% {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-content">
+        <img src="./resources/img/logo.png" class="center-full-image">
+    </div>
+
+    <script>
+        (() => setTimeout(() => window.location.href = './mascotas.html', 3000))();
+    </script>
+</body>
+
+</html>
