@@ -69,24 +69,12 @@ body {
 footer {
     background-color: white;
     padding: 10px;
-    
-    
     bottom: 0;
 }
-
-/* .header-mascota {
-    width: 400px;
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .header-mascota{
     width: 100%;
     height: auto;
 }
-
 .container-info-pet {
     padding: 24px;
     position: relative;
@@ -95,13 +83,11 @@ footer {
     margin-top: -10px;
     background-color: white;
 }
-
 .btn-back {
     position: absolute;
     top: 20px;
     left: 20px;
 }
-
 .personalities {
     height: 100px;
     padding: 20px;
@@ -118,17 +104,14 @@ footer {
     border-radius: 20px;
     background-color: black;
     color:aqua;
-    
 }
 .button-custom-contact {
-    
     background-color: black;
     color: white;
     border-radius: 35px;
     padding: 20px;
     width: 100%;
 }
-
 .circular {
     display: inline-block;
     position: relative;
@@ -137,15 +120,19 @@ footer {
     overflow: hidden;
     border-radius: 50%;
 }
-  .circular-img {
+.circular-img {
     width: auto;
     height: 100%;
     margin-left: -50px;
-  }
+}
 .circ{
     width: 60px;
     height: 60px;
 }
 .circimg{
     margin-left: -29px;
+}
+
+.chatGen{
+    margin-top: 30%;
 }

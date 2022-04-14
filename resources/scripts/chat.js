@@ -17,7 +17,7 @@ function enviarMsg() {
 
 function respuestaAutomatica() {
     const data = {
-        msg: "Respuesta automatica",
+        msg: "!Hola! claro, podemos acordar un lugar y hora para que conoscas a tu proxima mascota",
         date: hoy.getHours() + ':' + hoy.getMinutes(),
         type: "in"
     };
